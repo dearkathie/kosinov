@@ -4,7 +4,7 @@ var offset = null;
 
 function createMessage(id_param, id_data) {
   var nodeFrom = document.createElement("LI");
-  nodeFrom.setAttribute("id", id_param);
+  nodeFrom.setAttribute("class", id_param);
   var fromnode = document.createTextNode(id_data);
   nodeFrom.appendChild(fromnode);
   document.getElementById("myList").appendChild(nodeFrom);
